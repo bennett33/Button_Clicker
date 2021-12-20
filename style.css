@@ -1,0 +1,172 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-size: 20px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.nav {
+    background-color: rgb(216, 216, 216);
+    color: black;
+    height: 5em;
+    width: 70%;
+    justify-content: center;
+    display: flex;
+}
+
+.nav h1 {
+    margin-left: 1em;
+}
+
+#login-button {
+    background-color: rgb(13, 89, 255);
+    color:white;
+    padding: 5px;
+    margin-right: 2em;
+    border-right: solid black 3px;
+    border-bottom: solid black 3px;
+    border-top: solid black 2px;
+    border-left: solid black 2px;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-around{
+    justify-content: space-around;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.nav-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column-con-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.top-row {
+    width: 70%;
+    display: flex;
+}
+
+.definition {
+    border: solid black 2px;
+    flex: 1.5;
+    margin-right: 10px;
+    display: flex;
+    height: 100%
+}
+
+.add-def-box {
+    border: solid black 2px;
+    flex:1;
+    margin-left: 10px;
+}
+
+.column-con-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.bottom-row {
+    width: 70%;
+    display: flex;
+}
+
+.definition {
+    border: solid black 2px;
+    flex: 1.5;
+    margin-right: 10px;
+    display: flex;
+}
+
+.empty-box {
+    border: none;
+    flex:1;
+    margin-left: 10px;
+}
+
+.ninja-1 {
+    margin: 10px 20px 20px;
+    width: 30%;
+    text-align: center;
+}
+
+.ninja-def-1 {
+    flex:1;
+    margin:auto;
+    margin-right: 20px;
+}
+
+#like-button {
+    background-color: rgb(255, 199, 45);
+    color:black;
+    padding: 5px;
+    border-right: solid black 3px;
+    border-bottom: solid black 3px;
+    border-top: solid black 2px;
+    border-left: solid black 2px;
+    margin-top: 10px;
+}
+
+.ninja-2 {
+    margin: 10px 20px 20px;
+    width: 30%;
+    text-align: center;
+}
+
+.ninja-def-2 {
+    flex:1;
+    margin:auto;
+    margin-right: 20px;
+}
+
+.add-def-box {
+    height: 100%;
+}
+
+.add-def-box-inside {
+    margin:30px;
+}
+
+.add-def-box-inside h3{
+    margin-bottom: 10px;
+    font-size: 23px;
+}
+
+#add-button {
+    background-color: rgb(1, 156, 40);
+    color:black;
+    padding: 5px;
+    margin-right: 2em;
+    border-right: solid black 3px;
+    border-bottom: solid black 3px;
+    border-top: solid black 2px;
+    border-left: solid black 2px;
+    margin-top: 10px;
+    width:100%
+}
+
+.search {
+    margin: 0 auto;
+}
+

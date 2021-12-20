@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+    <title>Dojonary</title>
+</head>
+<body>
+    <div class ="nav-con">
+        <div class="nav flex align-center">
+            <h1 class="dojonary">Dojonary</h1>
+            <input class="search" type="text" name="Search" placeholder="Search">
+            <button onclick="logOut(this)" id="login-button">Login</button>
+        </div>
+    </div>
+    <div class="column-con-1">
+        <div class="top-row">
+            <div class="definition">
+                <div class="ninja-1">
+                    <h1>ninja</h1>
+                    <p>noun</p>
+                    <p>Plural: ninjas</p>
+                    <button onclick="alert('Ninja was liked')" id="like-button">13 Likes</button>
+                </div>
+                <div class="ninja-def-1">A practicioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a> </div>
+            </div>
+            <div class ="add-def-box">
+                <div class="add-def-box-inside">
+                    <h3>Dojonary is defined by YOU</h3>
+                    <button onclick="remove(this)" id="add-button">Add Definition</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="column-con-2">
+        <div class="bottom-row">
+            <div class="definition">
+                <div class="ninja-2">
+                    <h1>ninja</h1>
+                    <p>noun</p>
+                    <p>Plural: ninjas</p>
+                    <button id="like-button">37 Likes</button>
+                </div>
+                <div class="ninja-def-2">A practicioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a> </div>
+            </div>
+            <div class ="empty-box"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
